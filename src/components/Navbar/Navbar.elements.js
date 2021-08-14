@@ -88,6 +88,18 @@ export const NavItem = styled.li`
   }
 `;
 
+export const NavNotifiy = styled.div`
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#2196f3, #e91e63);
+  clip-path: circle(1% at 67% 30%);
+  font-color: #000;
+`;
+
 export const NavItemBtn = styled.li`
   @media screen and (max-width: 960px) {
     display: flex;
@@ -129,4 +141,31 @@ export const NavBtnLink = styled(Link)`
   width: 100%;
   border: none;
   outline: none;
+`;
+
+export const NavSpan = styled.span`
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 70%;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // width: 50px;
+  // height: 50px;
+  // color: #333333;
+  // background: #dddddd;
+  border: none;
+  outline: none;
+  border-radius: 50%;
 `;

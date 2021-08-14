@@ -13,6 +13,8 @@ import {
   NavItemBtn,
   NavLinks,
   NavBtnLink,
+  NavNotifiy,
+  NavSpan,
 } from "./Navbar.elements";
 
 function Navbar() {
@@ -57,11 +59,14 @@ function Navbar() {
               <NavItem>
                 <NavLinks to="/services" onClick={closeMobileMenu}>
                   Features
+                  <NavSpan>50+</NavSpan>
                 </NavLinks>
+                {/* <NavNotifiy>50+</NavNotifiy> */}
               </NavItem>
               <NavItem>
                 <NavLinks to="/products" onClick={closeMobileMenu}>
                   SmartPOS
+                  <NavSpan>10</NavSpan>
                 </NavLinks>
               </NavItem>
               <NavItem>
