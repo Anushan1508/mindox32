@@ -43,7 +43,7 @@ function Navbar() {
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon />
-              MINDOX TECHNO
+              AiDRevs
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -56,17 +56,17 @@ function Navbar() {
               </NavItem>
               <NavItem>
                 <NavLinks to="/services" onClick={closeMobileMenu}>
-                  Services
+                  Features
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="/products" onClick={closeMobileMenu}>
-                  Products
+                  SmartPOS
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="/products" onClick={closeMobileMenu}>
-                  Teams
+                  About Us
                 </NavLinks>
               </NavItem>
               <NavItemBtn>

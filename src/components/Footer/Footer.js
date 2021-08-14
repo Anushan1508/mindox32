@@ -80,9 +80,9 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to="/">
             <SocialIcon />
-            MINDOX TECHNO
+            AiDRevs
           </SocialLogo>
-          <WebsiteRights>MINDOX TECHNO © 2020</WebsiteRights>
+          <WebsiteRights>AiDRevs © 2020</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
               <FaFacebook />
