@@ -13,7 +13,6 @@ function Home() {
       <InfoSection {...homeObjTwo} />
       <Pricing />
       <InfoSection {...homeObjFour} />
-
       <TeamSection />
     </>
   );

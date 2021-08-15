@@ -61,7 +61,6 @@ function Navbar() {
                   Features
                   <NavSpan>50+</NavSpan>
                 </NavLinks>
-                {/* <NavNotifiy>50+</NavNotifiy> */}
               </NavItem>
               <NavItem>
                 <NavLinks to="/products" onClick={closeMobileMenu}>
