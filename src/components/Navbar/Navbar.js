@@ -13,7 +13,6 @@ import {
   NavItemBtn,
   NavLinks,
   NavBtnLink,
-  NavNotifiy,
   NavSpan,
 } from "./Navbar.elements";
 
