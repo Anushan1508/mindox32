@@ -50,6 +50,7 @@ export const PricingCard = styled(Link)`
   height: 500px;
   text-decoration: none;
   border-radius: 4px;
+  margin: -24px;
 
   &:nth-child(2) {
     margin: 24px;
@@ -63,6 +64,7 @@ export const PricingCard = styled(Link)`
 
   @media screen and (max-width: 960px) {
     width: 90%;
+    margin: 0;
 
     &:hover {
       transform: none;
