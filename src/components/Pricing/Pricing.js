@@ -18,6 +18,7 @@ import {
   PricingCardLength,
   PricingCardFeatures,
   PricingCardFeature,
+  PricingCardBig,
 } from "./Pricing.elements";
 
 function Pricing() {
@@ -43,7 +44,7 @@ function Pricing() {
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to="/sign-up">
+            <PricingCardBig to="/sign-up">
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCrystalBars />
@@ -58,7 +59,7 @@ function Pricing() {
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
-            </PricingCard>
+            </PricingCardBig>
             <PricingCard to="/sign-up">
               <PricingCardInfo>
                 <PricingCardIcon>

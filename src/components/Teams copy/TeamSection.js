@@ -1,39 +1,28 @@
 import React from "react";
-import Carousel from "react-elastic-carousel";
-// import Item from "./Item";
-// import "./styles.css";
 
 import {
   TeamBody,
   TeamSec,
   TeamContainer,
   TeamH1,
-  Para,
 } from "./TeamSection.elements";
-import TeamCardMem from "./TeamCardMem";
-
-import { TeamMemOne } from "./Data";
-
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
-];
 
 // import img from "../../images/team.jpg";
 
 // SLider
-// import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-// import "swiper/swiper.min.css";
-// import "swiper/components/pagination/pagination.min.css";
+import "swiper/swiper.min.css";
+import "swiper/components/pagination/pagination.min.css";
 
 // import Swiper core and required modules
-// import SwiperCore, { Pagination } from "swiper/core";
+import SwiperCore, { Pagination } from "swiper/core";
+import TeamCardMem from "./TeamCardMem";
+
+import { TeamMemOne } from "./Data";
 
 // install Swiper modules
-// SwiperCore.use([Pagination]);
+SwiperCore.use([Pagination]);
 
 const TeamSection = () => {
   return (
@@ -41,34 +30,15 @@ const TeamSection = () => {
       <TeamBody>
         <TeamSec>
           <TeamH1>Our Team</TeamH1>
-
           <TeamContainer>
-            <Carousel breakPoints={breakPoints}>
-              <TeamCardMem {...TeamMemOne} />
-              <TeamCardMem {...TeamMemOne} />
-              <TeamCardMem {...TeamMemOne} />
-              <TeamCardMem {...TeamMemOne} />
-              <TeamCardMem {...TeamMemOne} />
-              <TeamCardMem {...TeamMemOne} />
-              <TeamCardMem {...TeamMemOne} />
-            </Carousel>
-            <Para>
-              whbewhvew vw vwihv wievwivwivwbevwhebiwev wew eweb iwe wivw
-              iwevbwievhw viw viwev wie wihw viwv wiv wiw viwh vwivhw whbewhvew
-              vw vwihv wievwivwivwbevwhebiwev wew eweb iwe wivw iwevbwievhw viw
-            </Para>
-            {/* <Swiper
+            <Swiper
               slidesPerView={3}
               spaceBetween={30}
               pagination={{
                 clickable: true,
               }}
               className="mySwiper"
-            > */}
-            {/* <SwiperSlide>
-                <TeamCardMem {...TeamMemOne} />
-              </SwiperSlide>
-
+            >
               <SwiperSlide>
                 <TeamCardMem {...TeamMemOne} />
               </SwiperSlide>
@@ -92,7 +62,11 @@ const TeamSection = () => {
               <SwiperSlide>
                 <TeamCardMem {...TeamMemOne} />
               </SwiperSlide>
-            </Swiper> */}
+
+              <SwiperSlide>
+                <TeamCardMem {...TeamMemOne} />
+              </SwiperSlide>
+            </Swiper>
           </TeamContainer>
         </TeamSec>
       </TeamBody>

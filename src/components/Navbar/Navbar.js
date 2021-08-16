@@ -80,7 +80,7 @@ function Navbar() {
                 ) : (
                   <NavBtnLink to="/sign-up">
                     <Button onClick={closeMobileMenu} fontBig primary>
-                      SIGN UP
+                      LOG IN
                     </Button>
                   </NavBtnLink>
                 )}

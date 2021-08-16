@@ -141,9 +141,4 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
-  margin: 0 25px 0 25px;
-`;
-
-export const Para = styled.p`
-  color: transparent;
 `;
