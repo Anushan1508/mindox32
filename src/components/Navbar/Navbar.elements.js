@@ -168,4 +168,9 @@ export const NavSpan = styled.span`
   border: none;
   outline: none;
   border-radius: 50%;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 60%;
+    margin-top: -4%;
+  }
 `;
