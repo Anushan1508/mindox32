@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import { FaMagento } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
+import { FaMagento } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
-  background-color: #101522;
+  background-color: #4f02b8;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -23,8 +23,8 @@ export const FooterSubscription = styled.section`
 `;
 
 export const FooterSubHeading = styled.p`
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin-bottom: 24px;
   font-size: 24px;
 `;

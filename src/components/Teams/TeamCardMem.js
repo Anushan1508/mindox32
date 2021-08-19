@@ -11,7 +11,9 @@ import {
   TeamSpan,
   TeamSci,
   SocialIcons,
-  SocialIconLink,
+  SocialIconLinkC,
+  SocialIconLinkR,
+  SocialIconLinkL,
 } from "./TeamSection.elements";
 
 const TeamCardMem = ({ img, alt, CardName, CardTitle }) => {
@@ -29,15 +31,15 @@ const TeamCardMem = ({ img, alt, CardName, CardTitle }) => {
         </TeamContent>
         <TeamSci>
           <SocialIcons>
-            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+            <SocialIconLinkL href="/" target="_blank" aria-label="Facebook">
               <FaFacebook />
-            </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+            </SocialIconLinkL>
+            <SocialIconLinkC href="/" target="_blank" aria-label="Instagram">
               <FaInstagram />
-            </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+            </SocialIconLinkC>
+            <SocialIconLinkR href="/" target="_blank" aria-label="LinkedIn">
               <FaLinkedin />
-            </SocialIconLink>
+            </SocialIconLinkR>
           </SocialIcons>
         </TeamSci>
       </TeamCard>

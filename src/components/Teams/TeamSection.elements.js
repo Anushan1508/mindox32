@@ -6,7 +6,7 @@ export const TeamBody = styled.body`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: #161623;
+  background: #fff;
   min-height: 100vh;
   }
 `;
@@ -49,7 +49,7 @@ export const TeamContainer = styled(Container)`
 
 export const TeamH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: #4f02b8;
   margin-bottom: 64px;
   text-align: center;
 
@@ -109,7 +109,7 @@ export const TeamImg = styled.img`
 `;
 
 export const TeamContentBx = styled.h3`
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
@@ -138,10 +138,32 @@ export const SocialIcons = styled.div`
   width: 240px;
 `;
 
-export const SocialIconLink = styled.a`
-  color: #fff;
+export const SocialIconLinkL = styled.a`
+  color: #000;
   font-size: 24px;
   margin: 0 25px 0 25px;
+
+  @media screen and (max-width: 450px) {
+    margin: 0 0 0 50px;
+  }
+`;
+export const SocialIconLinkC = styled.a`
+  color: #000;
+  font-size: 24px;
+  margin: 0 25px 0 25px;
+
+  // @media screen and (max-width: 450px) {
+  //   margin: 0 60px 0 30px;
+  // }
+`;
+export const SocialIconLinkR = styled.a`
+  color: #000;
+  font-size: 24px;
+  margin: 0 25px 0 25px;
+
+  @media screen and (max-width: 450px) {
+    margin: 0 50px 0 0;
+  }
 `;
 
 export const Para = styled.p`

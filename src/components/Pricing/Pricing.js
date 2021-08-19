@@ -12,11 +12,13 @@ import {
   PricingContainer,
   PricingCard,
   PricingCardInfo,
+  PricingCardInfoBig,
   PricingCardIcon,
   PricingCardPlan,
   PricingCardCost,
   PricingCardLength,
   PricingCardFeatures,
+  PricingCardFeaturesBig,
   PricingCardFeature,
   PricingCardBig,
 } from "./Pricing.elements";
@@ -30,9 +32,9 @@ function Pricing() {
           <PricingContainer>
             <PricingCard to="/sign-up">
               <PricingCardInfo>
-                <PricingCardIcon>
+                <PricingCardInfo>
                   <GiRock />
-                </PricingCardIcon>
+                </PricingCardInfo>
                 <PricingCardPlan>Starter Pack</PricingCardPlan>
                 <PricingCardCost>$99.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength>
@@ -44,22 +46,24 @@ function Pricing() {
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
+
             <PricingCardBig to="/sign-up">
-              <PricingCardInfo>
-                <PricingCardIcon>
+              <PricingCardInfoBig>
+                <PricingCardInfoBig>
                   <GiCrystalBars />
-                </PricingCardIcon>
+                </PricingCardInfoBig>
                 <PricingCardPlan>Gold Rush</PricingCardPlan>
                 <PricingCardCost>$299.99</PricingCardCost>
                 <PricingCardLength>per month</PricingCardLength>
-                <PricingCardFeatures>
+                <PricingCardFeaturesBig>
                   <PricingCardFeature>1000 New Users</PricingCardFeature>
                   <PricingCardFeature>$50,000 Budget</PricingCardFeature>
                   <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
-                </PricingCardFeatures>
+                </PricingCardFeaturesBig>
                 <Button primary>Choose Plan</Button>
-              </PricingCardInfo>
+              </PricingCardInfoBig>
             </PricingCardBig>
+
             <PricingCard to="/sign-up">
               <PricingCardInfo>
                 <PricingCardIcon>
