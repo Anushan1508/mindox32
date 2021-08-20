@@ -1,0 +1,23 @@
+.testimonials {
+  padding: 100px 0;
+}
+.testimonials h3 {
+  margin-bottom: 20px;
+  font-size: 150%;
+}
+.testimonials .card {
+  border-bottom: 3px #007bff solid !important;
+  transition: 0.5s;
+  margin-top: 60px;
+}
+.testimonials .card i {
+  background-color: #007bff;
+  color: #ffffff;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: -40px auto 0 auto;
+}
+.card-text {
+  font-size: 150%;
+}
