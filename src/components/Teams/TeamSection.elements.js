@@ -49,9 +49,14 @@ export const TeamContainer = styled(Container)`
 
 export const TeamH1 = styled.h1`
   font-size: 2.5rem;
-  color: #4f02b8;
+  color: #332c79;
   margin-bottom: 64px;
   text-align: center;
+  margin-left: 60%;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 0;
+  }
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;

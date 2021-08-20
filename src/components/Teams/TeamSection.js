@@ -40,7 +40,7 @@ const TeamSection = () => {
     <>
       <TeamBody>
         <TeamSec>
-          <TeamH1>Our Team</TeamH1>
+          <TeamH1>OUR TEAM</TeamH1>
 
           <TeamContainer>
             <Carousel breakPoints={breakPoints}>

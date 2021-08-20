@@ -1,0 +1,13 @@
+.curved-div {
+  position: relative;
+  background: #441075;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.curved-div svg {
+  display: block;
+}
+.curved-div.upper {
+  background: #fff;
+}

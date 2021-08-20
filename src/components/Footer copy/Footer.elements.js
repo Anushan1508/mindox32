@@ -9,6 +9,7 @@ export const FooterContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 `;
 
 export const FooterSubscription = styled.section`
@@ -163,9 +164,4 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
-`;
-export const Wavy = styled.div`
-  position: relative;
-  background-color: #000;
-  min-height: 50vh;
 `;

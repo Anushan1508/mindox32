@@ -6,7 +6,7 @@ export const PricingSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #fff;
+  background-color: transparent;
 `;
 
 export const PricingWrapper = styled.div`
@@ -24,9 +24,14 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #4f02b8;
-  font-size: 48px;
+  color: #332c79;
+  font-size: 2.5rem;
   margin-bottom: 24px;
+  margin-left: -70%;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 0;
+  }
 `;
 
 export const PricingContainer = styled.div`
@@ -73,7 +78,7 @@ export const PricingCard = styled(Link)`
 `;
 
 export const PricingCardBig = styled(Link)`
-  background: #dbd5d5;
+  background: #fff;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 330px;
   height: 520px;
