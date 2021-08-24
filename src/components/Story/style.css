@@ -3,15 +3,22 @@
 }
 .testimonials h3 {
   margin-bottom: 20px;
-  font-size: 150%;
+  font-size: 250%;
 }
 .testimonials .card {
   border-bottom: 3px #007bff solid !important;
   transition: 0.5s;
   margin-top: 60px;
 }
+.card :hover {
+  /* color: #441075;
+  font-style: italic; */
+  transform: scale(1.03);
+  transition: all 0.3s ease-out;
+}
+
 .testimonials .card i {
-  background-color: #007bff;
+  background-color: #441075;
   color: #ffffff;
   width: 75px;
   height: 75px;

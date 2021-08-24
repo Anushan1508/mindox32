@@ -68,7 +68,7 @@ export const TeamCard = styled.div`
   width: 300px;
   height: 400px;
   background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -78,6 +78,8 @@ export const TeamCard = styled.div`
 
   &:hover {
     opacity: 1;
+    transform: scale(1.02);
+    transition: all 0.3s ease-out;
   }
 `;
 

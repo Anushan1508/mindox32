@@ -7,6 +7,7 @@ import SignUp from "./pages/SignUp/SignUp";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import { Navbar, Footer } from "./components";
+import Features from "./pages/Features/Features";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/features" component={Features} />
         <Route path="/services" component={Services} />
         <Route path="/products" component={Products} />
         <Route path="/sign-up" component={SignUp} />
