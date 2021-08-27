@@ -207,3 +207,7 @@ li {
 .watch:hover img {
   filter: grayscale(0);
 }
+
+.last {
+  display: flex;
+}

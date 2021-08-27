@@ -68,8 +68,16 @@ export const PricingCard = styled(Link)`
   }
 
   @media screen and (max-width: 960px) {
-    width: 90%;
+    width: 60%;
     margin: 0;
+
+    &:hover {
+      transform: none;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 80%;
 
     &:hover {
       transform: none;
@@ -96,7 +104,15 @@ export const PricingCardBig = styled(Link)`
   }
 
   @media screen and (max-width: 960px) {
-    width: 90%;
+    width: 60%;
+
+    &:hover {
+      transform: none;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 80%;
 
     &:hover {
       transform: none;

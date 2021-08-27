@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-// import Item from "./Item";
+
 // import "./styles.css";
 
 import {
@@ -21,20 +21,6 @@ const breakPoints = [
   { width: 1200, itemsToShow: 4 },
 ];
 
-// import img from "../../images/team.jpg";
-
-// SLider
-// import { Swiper, SwiperSlide } from "swiper/react";
-
-// import "swiper/swiper.min.css";
-// import "swiper/components/pagination/pagination.min.css";
-
-// import Swiper core and required modules
-// import SwiperCore, { Pagination } from "swiper/core";
-
-// install Swiper modules
-// SwiperCore.use([Pagination]);
-
 const TeamSection = () => {
   return (
     <>
@@ -50,49 +36,12 @@ const TeamSection = () => {
               <TeamCardMem {...TeamMemOne} />
               <TeamCardMem {...TeamMemOne} />
               <TeamCardMem {...TeamMemOne} />
-              <TeamCardMem {...TeamMemOne} />
             </Carousel>
             <Para>
               whbewhvew vw vwihv wievwivwivwbevwhebiwev wew eweb iwe wivw
               iwevbwievhw viw viwev wie wihw viwv wiv wiw viwh vwivhw whbewhvew
               vw vwihv wievwivwivwbevwhebiwev wew eweb iwe wivw iwevbwievhw viw
             </Para>
-            {/* <Swiper
-              slidesPerView={3}
-              spaceBetween={30}
-              pagination={{
-                clickable: true,
-              }}
-              className="mySwiper"
-            > */}
-            {/* <SwiperSlide>
-                <TeamCardMem {...TeamMemOne} />
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <TeamCardMem {...TeamMemOne} />
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <TeamCardMem {...TeamMemOne} />
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <TeamCardMem {...TeamMemOne} />
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <TeamCardMem {...TeamMemOne} />
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <TeamCardMem {...TeamMemOne} />
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <TeamCardMem {...TeamMemOne} />
-              </SwiperSlide>
-            </Swiper> */}
           </TeamContainer>
         </TeamSec>
       </TeamBody>

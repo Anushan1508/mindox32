@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import { Navbar, Footer } from "./components";
 import Features from "./pages/Features/Features";
+import SmartPOP from "./pages/SmartPOP/SmartPOP";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/features" component={Features} />
+        <Route path="/smart-pop" component={SmartPOP} />
         <Route path="/services" component={Services} />
         <Route path="/products" component={Products} />
         <Route path="/sign-up" component={SignUp} />
