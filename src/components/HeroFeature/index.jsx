@@ -29,7 +29,7 @@ const Hero = () => {
       <HeroContent>
       <Fade bottom>
         <HeroH1>
-            Semiconductor Equipment Manufacturing Advanced Analyics in Water and Pannel level process and packing 
+            Full Services Digital Marketing 
         </HeroH1>
         </Fade>
         <Fade bottom>

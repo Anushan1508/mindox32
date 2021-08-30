@@ -6,7 +6,13 @@ const VideoSection = () => {
   return (
     <div>
       <Container>
-        <h1>Video</h1>
+        <h1 className="heading">We will show you how is done</h1>
+        <p className="paragra">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          bibendum enim eu nibh finibus Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit.
+        </p>
+        <button className="btn">Learn More</button>
         <div className="iframe-container">
           <iframe
             width="560"
