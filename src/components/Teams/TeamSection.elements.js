@@ -44,7 +44,7 @@ export const TeamContainer = styled(Container)`
 `;
 
 export const TeamH1 = styled.h1`
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #332c79;
   margin-bottom: 64px;
   text-align: center;
@@ -64,7 +64,7 @@ export const TeamCard = styled.div`
   width: 300px;
   height: 400px;
   background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 7px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   display: flex;
   justify-content: center;

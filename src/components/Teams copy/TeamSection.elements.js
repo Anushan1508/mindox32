@@ -6,7 +6,7 @@ export const TeamBody = styled.body`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: #161623;
+  background: #fff;
   min-height: 100vh;
   }
 `;
@@ -21,8 +21,6 @@ export const TeamSec = styled.section`
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#f00, #f0f);
-    clip-path: circle(30% at right 70%);
   }
 
   &:after {
@@ -32,8 +30,6 @@ export const TeamSec = styled.section`
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#2196f3, #e91e63);
-    clip-path: circle(20% at 10% 10%);
   }
 `;
 
@@ -48,10 +44,15 @@ export const TeamContainer = styled(Container)`
 `;
 
 export const TeamH1 = styled.h1`
-  font-size: 2.5rem;
-  color: #fff;
+  font-size: 3.5rem;
+  color: #332c79;
   margin-bottom: 64px;
   text-align: center;
+  margin-left: 60%;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 0;
+  }
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -63,7 +64,7 @@ export const TeamCard = styled.div`
   width: 300px;
   height: 400px;
   background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 7px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -73,6 +74,8 @@ export const TeamCard = styled.div`
 
   &:hover {
     opacity: 1;
+    transform: scale(1.02);
+    transition: all 0.3s ease-out;
   }
 `;
 
@@ -109,7 +112,7 @@ export const TeamImg = styled.img`
 `;
 
 export const TeamContentBx = styled.h3`
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
@@ -138,7 +141,34 @@ export const SocialIcons = styled.div`
   width: 240px;
 `;
 
-export const SocialIconLink = styled.a`
-  color: #fff;
+export const SocialIconLinkL = styled.a`
+  color: #000;
   font-size: 24px;
+  margin: 0 25px 0 25px;
+
+  @media screen and (max-width: 450px) {
+    margin: 0 0 0 50px;
+  }
+`;
+export const SocialIconLinkC = styled.a`
+  color: #000;
+  font-size: 24px;
+  margin: 0 25px 0 25px;
+
+  // @media screen and (max-width: 450px) {
+  //   margin: 0 60px 0 30px;
+  // }
+`;
+export const SocialIconLinkR = styled.a`
+  color: #000;
+  font-size: 24px;
+  margin: 0 25px 0 25px;
+
+  @media screen and (max-width: 450px) {
+    margin: 0 50px 0 0;
+  }
+`;
+
+export const Para = styled.p`
+  color: transparent;
 `;

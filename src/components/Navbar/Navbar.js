@@ -63,13 +63,13 @@ function Navbar() {
               </NavItem>
               <NavItem>
                 <NavLinks to="/smart-pop" onClick={closeMobileMenu}>
-                  SmartPOS
+                  Teams
                   <NavSpan>10</NavSpan>
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/products" onClick={closeMobileMenu}>
-                  About Us
+                <NavLinks to="/contactus" onClick={closeMobileMenu}>
+                  Contact Us
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
