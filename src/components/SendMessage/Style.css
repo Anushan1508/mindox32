@@ -17,6 +17,7 @@
   font-size: 52px;
   color: rgb(7, 7, 7);
   text-align: center;
+  margin-top: 2%;
 }
 
 h4 {
@@ -53,6 +54,10 @@ textarea:valid ~ label {
 @media only screen and (max-width: 768px) {
   .styled-input {
     width: 100%;
+  }
+
+  .sendmshH1 {
+    font-size: 40px;
   }
 }
 

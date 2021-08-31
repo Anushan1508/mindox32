@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Fade from 'react-reveal/Fade';
-import Video from '../../images/bg-image.png'
+// import Video from '../../images/bg-image.png'
 // import { Button } from '../ButtonElements'
 import { Button } from '../ButtonElements'
 import {
@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg  autoPlay loop   muted src={Video} type='video/mp4' />
+        <VideoBg  autoPlay loop   muted src={require("../../images/team.jpg")} type='video/mp4' />
       </HeroBg>
       <HeroContent>
       <Fade bottom>
