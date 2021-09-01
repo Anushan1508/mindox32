@@ -10,9 +10,9 @@ const VideoSection = () => {
         <p className="paragra">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
           bibendum enim eu nibh finibus Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit.
+          adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing
         </p>
-        <button className="btn">Learn More</button>
+        <button className="btn">training and workshops</button>
         <div className="iframe-container">
           <iframe
             width="560"
