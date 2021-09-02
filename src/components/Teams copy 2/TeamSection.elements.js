@@ -169,12 +169,6 @@ export const SocialIconLinkR = styled.a`
   }
 `;
 
-export const Para = styled.div`
-  // color: transparent;
-  margin: 0 5% 0 5%;
-  align-iteams: center;
-`;
-
-export const Para2 = styled.p`
+export const Para = styled.p`
   color: transparent;
 `;

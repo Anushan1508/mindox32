@@ -27,6 +27,7 @@ import {
   SocialIcons,
   SocialIconLink,
   Wavy,
+  FooterSubHeading2,
 } from "./Footer.elements";
 
 import "./style.css";
@@ -36,6 +37,9 @@ function Footer() {
     <Wavy>
       <FooterContainer>
         <FooterSubscription>
+          <FooterSubHeading2>
+            Join our exclusive membership to receive the latest news and trends
+          </FooterSubHeading2>
           <FooterSubHeading>
             Join our exclusive membership to receive the latest news and trends
           </FooterSubHeading>

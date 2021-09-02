@@ -4,7 +4,7 @@ import "./style.css";
 
 const CardSection = () => {
   return (
-    <div>
+    <div className="body">
       <section class="c-section">
         <Container>
           <h2 class="c-section__title">

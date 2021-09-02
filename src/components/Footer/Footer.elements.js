@@ -28,6 +28,13 @@ export const FooterSubHeading = styled.p`
   margin-bottom: 24px;
   font-size: 24px;
 `;
+export const FooterSubHeading2 = styled.p`
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: transparent;
+`;
 
 export const FooterSubText = styled.p`
   margin-bottom: 24px;

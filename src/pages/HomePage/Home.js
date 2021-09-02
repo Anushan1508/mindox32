@@ -16,10 +16,7 @@ function Home() {
       <InfoSection {...homeObjOne} />
       <CardSection />
       <Story />
-      {/* <InfoSection {...homeObjThree} />
-      <InfoSection {...homeObjTwo} /> */}
       <Pricing />
-      {/* <InfoSection {...homeObjFour} /> */}
       <TeamSection />
     </>
   );

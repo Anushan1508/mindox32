@@ -53,16 +53,24 @@
   box-sizing: inherit;
 }
 
-body {
+.body {
   font-size: 1.4rem;
   font-family: "Inter", sans-serif;
   font-weight: 300;
   /* background-color: white; */
   min-height: 100vh;
+  background-color: black;
+  max-height: 1500px;
 }
 @media (min-width: 48em) {
-  body {
+  .body {
     font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .body {
+    /* max-height: 1200px; */
   }
 }
 
