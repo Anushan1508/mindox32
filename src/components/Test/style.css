@@ -1,0 +1,16 @@
+.testcardcontainer {
+  justify-items: center;
+  background-color: rgb(155, 138, 138);
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.testcard {
+  background-color: rgb(224, 61, 61);
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}

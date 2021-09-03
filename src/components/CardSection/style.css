@@ -59,8 +59,8 @@
   font-weight: 300;
   /* background-color: white; */
   min-height: 100vh;
-  background-color: black;
-  max-height: 1500px;
+  /* background-color: black; */
+  /* max-height: 1500px; */
 }
 @media (min-width: 48em) {
   .body {

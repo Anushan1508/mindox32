@@ -27,13 +27,7 @@ export const FooterSubHeading = styled.p`
     "Lucida Sans", Arial, sans-serif;
   margin-bottom: 24px;
   font-size: 24px;
-`;
-export const FooterSubHeading2 = styled.p`
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  margin-bottom: 24px;
-  font-size: 24px;
-  color: transparent;
+  margin-top: 15%;
 `;
 
 export const FooterSubText = styled.p`
@@ -99,6 +93,7 @@ export const FooterLinkItems = styled.div`
   width: 160px;
   box-sizing: border-box;
   color: #fff;
+  font-size: 150%;
 
   @media screen and (max-width: 420px) {
     margin: 0;

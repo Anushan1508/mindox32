@@ -9,6 +9,7 @@
   border-bottom: 3px #007bff solid !important;
   transition: 0.5s;
   margin-top: 60px;
+  margin-bottom: 10%;
 }
 .card :hover {
   /* color: #441075;
@@ -29,4 +30,8 @@
   font-size: 150%;
   text-align: justify;
   padding: 10%;
+}
+
+.cardborder {
+  padding-bottom: 50%;
 }

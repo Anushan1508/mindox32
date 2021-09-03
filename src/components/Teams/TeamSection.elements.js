@@ -72,6 +72,10 @@ export const TeamCard = styled.div`
   backdrop-filter: blur(10px);
   margin: 30px;
 
+  margin: 30px auto;
+  width: 85%;
+  // padding:  10px;
+
   &:hover {
     opacity: 1;
     transform: scale(1.02);
@@ -169,10 +173,8 @@ export const SocialIconLinkR = styled.a`
   }
 `;
 
-export const Para = styled.div`
-  // color: transparent;
-  margin: 0 5% 0 5%;
-  align-iteams: center;
+export const Para = styled.p`
+  padding-bottom: 4%;
 `;
 
 export const Para2 = styled.p`
