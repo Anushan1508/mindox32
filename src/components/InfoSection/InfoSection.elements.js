@@ -54,6 +54,10 @@ export const TopLine = styled.div`
   font-weight: 700;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
+
+  @media screen and (max-width: 820px) {
+    font-size: 18px;
+  }
 `;
 
 export const Img = styled.img`
@@ -71,6 +75,10 @@ export const Heading = styled.h1`
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
+
+  @media screen and (max-width: 820px) {
+    font-size: 48px;
+  }
 `;
 
 export const Subtitle = styled.p`
