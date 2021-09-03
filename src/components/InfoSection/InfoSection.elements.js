@@ -9,7 +9,7 @@ export const InfoSec = styled.div`
 
 export const InfoRow = styled.div`
   display: flex;
-  margin: 0 -15px -15px -15px;
+  margin: -100px -15px -150px -15px;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
@@ -49,7 +49,7 @@ export const ImgWrapper = styled.div`
 
 export const TopLine = styled.div`
   color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#4B59F7")};
-  font-size: 18px;
+  font-size: 28px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
@@ -67,7 +67,7 @@ export const Img = styled.img`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 58px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
@@ -93,7 +93,7 @@ export const Form = styled.form`
 `;
 
 export const FormInput = styled.input`
-  padding: 10px 20px;
+  padding: 10px 80px;
   border-radius: 2px;
   margin-right: 10px;
   outline: none;

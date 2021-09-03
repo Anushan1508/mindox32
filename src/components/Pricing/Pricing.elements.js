@@ -25,7 +25,7 @@ export const PricingWrapper = styled.div`
 
 export const PricingHeading = styled.h1`
   color: #332c79;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-bottom: 24px;
   margin-left: -70%;
 

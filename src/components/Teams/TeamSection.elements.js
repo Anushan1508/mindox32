@@ -72,7 +72,7 @@ export const TeamCard = styled.div`
   backdrop-filter: blur(10px);
   margin: 30px;
 
-  margin: 30px auto;
+  margin: 10px auto 30px auto;
   width: 85%;
   // padding:  10px;
 

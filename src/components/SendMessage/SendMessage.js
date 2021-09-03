@@ -15,25 +15,25 @@ const SendMessage = () => {
           <div className="col-xs-12">
             <div className="styled-input wide">
               <input className="cinput" type="text" required />
-              <label>Name</label>
+              <label className="lblsm">Name</label>
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
             <div className="styled-input">
               <input className="cinput" type="text" required />
-              <label>Email</label>
+              <label className="lblsm">Email</label>
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
             <div className="styled-input">
               <input className="cinput" type="text" required />
-              <label>Phone Number</label>
+              <label className="lblsm">Phone Number</label>
             </div>
           </div>
           <div className="col-xs-12">
             <div className="styled-input wide">
               <textarea required></textarea>
-              <label>Message</label>
+              <label className="lblsm">Message</label>
             </div>
           </div>
           <div className="col-xs-12">

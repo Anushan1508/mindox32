@@ -30,7 +30,7 @@ function Pricing() {
     <IconContext.Provider value={{ color: "#a9b3c1", size: 64 }}>
       <PricingSection className="curved-div">
         <PricingWrapper>
-          <PricingHeading>OUR PRICING</PricingHeading>
+          <PricingHeading>Our Pricing</PricingHeading>
           <PricingContainer>
             <PricingCard to="/sign-up">
               <PricingCardInfo>

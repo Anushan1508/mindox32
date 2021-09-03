@@ -4,9 +4,9 @@ import "./style.css";
 
 const CardSection = () => {
   return (
-    <div className="body">
-      <section class="c-section">
-        <Container>
+    <Container>
+      <div className="body">
+        <section class="c-section">
           <h2 class="c-section__title">
             <span>ONE STOP Solutions</span>
           </h2>
@@ -63,9 +63,9 @@ const CardSection = () => {
               </p>
             </li>
           </ul>
-        </Container>
-      </section>
-    </div>
+        </section>
+      </div>
+    </Container>
   );
 };
 
