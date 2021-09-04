@@ -21,7 +21,7 @@ class Collapsible extends React.Component {
         <button onClick={(e) => this.togglePanel(e)} className="collapsible">
           {this.props.title}{" "}
         </button>
-        <div className="content">
+        <div className="contentdd">
           {this.state.open ? <div>{this.props.text}</div> : null}
         </div>
       </div>
