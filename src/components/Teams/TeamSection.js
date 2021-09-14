@@ -15,13 +15,13 @@ export default class TeamSection extends Component {
     var settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToShow: 3,
+      slidesToScroll: 3,
       initialSlide: 0,
 
       autoplay: true,
       speed: 2000,
-      autoplaySpeed: 10000,
+      autoplaySpeed: 5000,
       cssEase: "linear",
 
       responsive: [

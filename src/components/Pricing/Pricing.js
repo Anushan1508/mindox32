@@ -28,7 +28,18 @@ import "./style.css";
 function Pricing() {
   return (
     <IconContext.Provider value={{ color: "#a9b3c1", size: 64 }}>
-      <PricingSection className="curved-div">
+      <PricingSection>
+        <svg
+          className="svgbadje"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#332c79"
+            fill-opacity="1"
+            d="M0,192L0,32L1440,32L1440,320L0,320L0,320Z"
+          ></path>
+        </svg>
         <PricingWrapper>
           <PricingHeading>Our Pricing</PricingHeading>
           <PricingContainer>

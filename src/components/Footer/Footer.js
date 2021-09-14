@@ -1,12 +1,12 @@
 import React from "react";
 import { Button } from "../../globalStyles";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin,
-} from "react-icons/fa";
+// import {
+//   FaFacebook,
+//   FaInstagram,
+//   FaYoutube,
+//   FaTwitter,
+//   FaLinkedin,
+// } from "react-icons/fa";
 import {
   FooterContainer,
   FooterSubscription,
@@ -25,9 +25,11 @@ import {
   SocialIcon,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink,
+  // SocialIconLink,
   Wavy,
 } from "./Footer.elements";
+
+import ContactSocial from "../ContactSocial/ContactSocial";
 
 import "./style.css";
 
@@ -88,21 +90,7 @@ function Footer() {
             </SocialLogo>
             <WebsiteRights>AiDRevs © 2020</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
-                <FaInstagram />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
-                <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
-                <FaLinkedin />
-              </SocialIconLink>
+              <ContactSocial />
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>

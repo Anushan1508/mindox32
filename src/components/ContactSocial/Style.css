@@ -28,7 +28,7 @@ body {
 
 .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .wrapper .icon {
@@ -37,8 +37,8 @@ body {
   border-radius: 50%;
   padding: 15px;
   margin: 10px;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -90,34 +90,34 @@ body {
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
-  background-color: #3b5999;
+  background-color: #944bd8;
   color: #ffffff;
 }
 
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-  background-color: #46c1f6;
+  background-color: #944bd8;
   color: #ffffff;
 }
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-  background-color: #e1306c;
+  background-color: #944bd8;
   color: #ffffff;
 }
 
 .wrapper .github:hover,
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
-  background-color: #333333;
+  background-color: #944bd8;
   color: #ffffff;
 }
 
 .wrapper .youtube:hover,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
-  background-color: #de463b;
+  background-color: #944bd8;
   color: #ffffff;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import {
   homeObjOne,
+  // homeObjTwo,
   //homeObjTwo, homeObjThree, homeObjFour
 } from "./Data";
 import { InfoSection, Pricing } from "../../components";
@@ -11,14 +12,16 @@ import TeamSection from "../../components/Teams/TeamSection";
 import "../../components/CardSection/style.css";
 
 import Story from "../../components/Story/Story";
-import DropdownSection from "../../components/DropdownSection/DropdownSection";
+import FourcardCom from "../../components/FourCardCom/FourcardCom";
+import Accordion from "../../components/Accordion/Accordion";
 
 function Home() {
   return (
     <>
       <VideoB />
       <InfoSection {...homeObjOne} />
-      <DropdownSection />
+      <Accordion />
+      <FourcardCom />
       {/* <CardSection /> */}
       <Story />
       <Pricing />

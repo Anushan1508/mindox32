@@ -53,7 +53,7 @@ export const TopLine = styled.div`
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
-  margin-bottom: 16px;
+  margin-bottom: 25px;
 
   @media screen and (max-width: 820px) {
     font-size: 18px;

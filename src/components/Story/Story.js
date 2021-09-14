@@ -10,7 +10,7 @@ const Story = () => {
           <Container>
             <h3>Testimonials</h3>
             <div class="row">
-              <div class="col-md-6 col-lg-4">
+              <div class="col-md-6 col-lg-4 center">
                 <div class="card border-light bg-light text-center">
                   <i
                     class="fa fa-quote-left fa-3x card-img-top rounded-circle"
@@ -21,9 +21,6 @@ const Story = () => {
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Integer bibendum enim eu nibh finibus Lorem ipsum dolor
                       sit amet, consectetur adipiscing elit. Integer bibendum
-                      enim eu nibh finibus Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit. Integer bibendum enim eu nibh
-                      finibus
                     </p>
                     <footer class="blockquote-footer">
                       <cite title="Source Title">Mohamed Nady</cite>
@@ -32,7 +29,7 @@ const Story = () => {
                 </div>
               </div>
 
-              <div class="col-md-6 col-lg-4">
+              <div class="col-md-6 col-lg-4 center">
                 <div class="card border-light bg-light text-center">
                   <i
                     class="fa fa-quote-left fa-3x card-img-top rounded-circle"
@@ -43,9 +40,6 @@ const Story = () => {
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Integer bibendum enim eu nibh finibus Lorem ipsum dolor
                       sit amet, consectetur adipiscing elit. Integer bibendum
-                      enim eu nibh finibus Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit. Integer bibendum enim eu nibh
-                      finibus
                     </p>
                     <footer class="blockquote-footer">
                       <cite title="Source Title">Mohamed Reda</cite>
@@ -54,7 +48,7 @@ const Story = () => {
                 </div>
               </div>
 
-              <div class="col-md-6 col-lg-4">
+              <div class="col-md-6 col-lg-4 center">
                 <div class="card border-light bg-light text-center">
                   <i
                     class="fa fa-quote-left fa-3x card-img-top rounded-circle"
@@ -65,9 +59,6 @@ const Story = () => {
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Integer bibendum enim eu nibh finibus Lorem ipsum dolor
                       sit amet, consectetur adipiscing elit. Integer bibendum
-                      enim eu nibh finibus Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit. Integer bibendum enim eu nibh
-                      finibus
                     </p>
                     <footer class="blockquote-footer">
                       <cite title="Source Title">Mohamed Atef</cite>

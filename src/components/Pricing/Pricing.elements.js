@@ -38,7 +38,8 @@ export const PricingContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
+  // background-color: black;
+  max-width: 1200px;
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
@@ -51,11 +52,12 @@ export const PricingContainer = styled.div`
 export const PricingCard = styled(Link)`
   background: #4f02b8;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-  width: 280px;
+  width: 300px;
   height: 500px;
   text-decoration: none;
   border-radius: 4px;
-  margin: -24px;
+  margin: -24px 20px;
+  z-index: 3;
 
   &:nth-child(2) {
     margin: 24px;
@@ -65,6 +67,9 @@ export const PricingCard = styled(Link)`
     transform: scale(1.06);
     transition: all 0.3s ease-out;
     color: #1c2237;
+  }
+  @media screen and (max-width: 1100px) {
+    margin: -24px;
   }
 
   @media screen and (max-width: 960px) {
@@ -88,10 +93,11 @@ export const PricingCard = styled(Link)`
 export const PricingCardBig = styled(Link)`
   background: #fff;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-  width: 330px;
+  width: 350px;
   height: 520px;
   text-decoration: none;
   border-radius: 4px;
+  z-index: 3;
 
   &:nth-child(2) {
     margin: 24px;

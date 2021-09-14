@@ -1,16 +1,20 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-}
+} */
 
 /* body {
   background: #007bff !important;
 } */
 
+.position {
+  margin-bottom: -4%;
+}
+
 .positionH {
   text-align: center;
-  margin: 50px auto 120px;
+  margin: 50px auto 20px;
   color: rgb(8, 8, 8);
   text-transform: uppercase;
 }
@@ -22,6 +26,7 @@
   position: relative;
   cursor: pointer;
   position: relative;
+  margin-top: 1%;
 }
 
 .service {
@@ -118,4 +123,8 @@
 
 .main:hover .service-logo img {
   transform: rotate(360deg);
+}
+
+.positionp {
+  font-size: 140%;
 }

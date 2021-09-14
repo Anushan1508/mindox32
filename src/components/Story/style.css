@@ -1,5 +1,5 @@
 .testimonials {
-  padding: 100px 0;
+  padding: 60px 0 0 0;
 }
 .testimonials h3 {
   margin-bottom: 20px;
@@ -34,4 +34,8 @@
 
 .cardborder {
   padding-bottom: 50%;
+}
+
+.center {
+  margin: auto;
 }

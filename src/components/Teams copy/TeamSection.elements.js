@@ -52,10 +52,12 @@ export const TeamH1 = styled.h1`
 
   @media screen and (max-width: 960px) {
     margin-left: 0;
+    margin-top: 6%;
   }
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
+    argin-top: 4%;
   }
 `;
 

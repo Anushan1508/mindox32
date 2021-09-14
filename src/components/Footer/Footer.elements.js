@@ -9,6 +9,11 @@ export const FooterContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin: auto;
+  width: 100%;
+  border: 3px solid green;
+  padding: 10px;
 `;
 
 export const FooterSubscription = styled.section`
@@ -20,6 +25,9 @@ export const FooterSubscription = styled.section`
   margin-bottom: 24px;
   padding: 24px;
   color: #fff;
+  // background-color: #000;
+  max-width: 1200px;
+  width: 100%;
 `;
 
 export const FooterSubHeading = styled.p`
@@ -67,9 +75,11 @@ export const FormInput = styled.input`
 
 export const FooterLinksContainer = styled.div`
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   display: flex;
-  justify-content: center;
+  // justify-content: center;
+  justify-content: space-between;
+  // background-color: #000;
 
   @media screen and (max-width: 820px) {
     padding-top: 32px;
@@ -78,6 +88,14 @@ export const FooterLinksContainer = styled.div`
 
 export const FooterLinksWrapper = styled.div`
   display: flex;
+  // justify-content: space-between;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  width: 100%;
+
+  margin: auto 10px;
+  width: 100%;
+  // padding: 10px;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
@@ -93,7 +111,8 @@ export const FooterLinkItems = styled.div`
   width: 160px;
   box-sizing: border-box;
   color: #fff;
-  font-size: 150%;
+  font-size: 200%;
+  // background-color: #fff;
 
   @media screen and (max-width: 420px) {
     margin: 0;
@@ -118,7 +137,7 @@ export const FooterLink = styled(Link)`
 `;
 
 export const SocialMedia = styled.section`
-  max-width: 1000px;
+  max-width: 1400px;
   width: 100%;
 `;
 
@@ -126,12 +145,13 @@ export const SocialMediaWrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  max-width: 1000px;
+  width: 100%;
+  max-width: 1200px;
   margin: 40px auto 0 auto;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
+    max-width: 1000px;
   }
 `;
 
@@ -140,7 +160,7 @@ export const SocialLogo = styled(Link)`
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 4rem;
   display: flex;
   align-items: center;
   margin-bottom: 16px;
@@ -153,6 +173,7 @@ export const SocialIcon = styled(FaMagento)`
 export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
+  font-size: 200%;
 `;
 
 export const SocialIcons = styled.div`
