@@ -13,16 +13,15 @@ import "../../components/CardSection/style.css";
 
 import Story from "../../components/Story/Story";
 import FourcardCom from "../../components/FourCardCom/FourcardCom";
-import Accordion from "../../components/Accordion/Accordion";
+import InfoSectionDrop from "../../components/InfoSectionDrop/InfoSection";
 
 function Home() {
   return (
     <>
       <VideoB />
       <InfoSection {...homeObjOne} />
-      <Accordion />
+      <InfoSectionDrop {...homeObjOne} />
       <FourcardCom />
-      {/* <CardSection /> */}
       <Story />
       <Pricing />
       <TeamSection />

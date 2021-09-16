@@ -7,6 +7,7 @@ export const PricingSection = styled.div`
   flex-direction: column;
   justify-content: center;
   background-color: transparent;
+  // background-color: black;
 `;
 
 export const PricingWrapper = styled.div`
@@ -169,6 +170,7 @@ export const PricingCardFeatures = styled.ul`
   flex-direction: column;
   align-items: center;
   color: #a9b3c1;
+  font-size: 150%;
 `;
 
 export const PricingCardFeaturesBig = styled.ul`
@@ -178,6 +180,7 @@ export const PricingCardFeaturesBig = styled.ul`
   flex-direction: column;
   align-items: center;
   color: #4f02b8;
+  font-size: 150%;
 `;
 
 export const PricingCardFeature = styled.li`

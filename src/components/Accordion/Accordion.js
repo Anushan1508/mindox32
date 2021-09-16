@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { IconContext } from "react-icons";
 import { FiPlus, FiMinus } from "react-icons/fi";
 
-const AccordionSection = styled.div`
+const AccordionCon = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,28 +12,48 @@ const AccordionSection = styled.div`
   position: relative;
   height: 85vh;
   background: black;
+  // background: white;
+  // max-width: 1200px;
+  // margin: auto;
+
+  // @media screen and (max-width: 730px) {
+  //   height: 90vh;
+  // }
+`;
+
+const AccordionSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 85vh;
+  // background: black;
+  max-width: 1200px;
+  margin: auto;
 
   @media screen and (max-width: 730px) {
     height: 90vh;
   }
 `;
 
-const Container = styled.div`
-  position: absolute;
-  top: 20%;
-  box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
-  width: 80%;
-`;
+// const Container = styled.div`
+//   position: absolute;
+//   top: 20%;
+//   box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
+//   width: 80%;
+// `;
 const Heading = styled.div`
   font-size: 400%;
-  margin: auto;
+  // margin: auto;
+  margin: 10px auto 10px auto;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 3px;
   color: #fff;
 `;
 
 const Wrap = styled.div`
-  background: #272727;
+  background: #000;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -41,6 +61,7 @@ const Wrap = styled.div`
   width: 100%;
   text-align: center;
   cursor: pointer;
+  margin: 2% auto;
 
   h1 {
     padding: 2rem;
@@ -53,7 +74,7 @@ const Wrap = styled.div`
 `;
 
 const Dropdown = styled.div`
-  background: #1c1c1c;
+  background: black;
   color: #00ffb9;
   width: 100%;
   height: 100px;
@@ -83,9 +104,10 @@ const Accordion = () => {
 
   return (
     <IconContext.Provider value={{ color: "#00FFB9", size: "25px" }}>
-      <AccordionSection>
-        <Heading>Hello EveryOne</Heading>
-        <Container>
+      <AccordionCon>
+        <AccordionSection>
+          <Heading>Hello EveryOne</Heading>
+
           {Data.map((item, index) => {
             return (
               <>
@@ -101,8 +123,8 @@ const Accordion = () => {
               </>
             );
           })}
-        </Container>
-      </AccordionSection>
+        </AccordionSection>
+      </AccordionCon>
     </IconContext.Provider>
   );
 };
